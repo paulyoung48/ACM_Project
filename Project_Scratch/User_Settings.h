@@ -47,7 +47,7 @@ extern int MEP_ScaleFactor;
 //OPERATION SETTINGS
 #define Dstart .25 //for Fixed D and Constant Ifb
 #define Vstart 5
-#define Fan_start .3
+#define Fan_start .357
 #define EXTERNAL_PROG 1 //FUNC gen on LAUNCHPAD pin 23
 
 
