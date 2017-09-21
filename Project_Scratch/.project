@@ -26,11 +26,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>ADC_CONFIG.c</name>
-			<type>1</type>
-			<locationURI>COMMON_LINKED_SOURCE/ADC_CONFIG.c</locationURI>
-		</link>
-		<link>
 			<name>F2837xS_CodeStartBranch.asm</name>
 			<type>1</type>
 			<locationURI>COMMON_LINKED_SOURCE/F2837xS_CodeStartBranch.asm</locationURI>
@@ -63,7 +58,7 @@
 		<link>
 			<name>F2837xS_Headers_nonBIOS.cmd</name>
 			<type>1</type>
-			<locationURI>MY_WORKSPACE/Common_LinkerCMD_Files/F2837xS_Headers_nonBIOS.cmd</locationURI>
+			<locationURI>COMMON_LINKERCMD/F2837xS_Headers_nonBIOS.cmd</locationURI>
 		</link>
 		<link>
 			<name>F2837xS_PieCtrl.c</name>
@@ -85,11 +80,6 @@
 			<type>1</type>
 			<locationURI>COMMON_LINKED_SOURCE/F2837xS_usDelay.asm</locationURI>
 		</link>
-		<link>
-			<name>PWM_CONFIG.c</name>
-			<type>1</type>
-			<locationURI>COMMON_LINKED_SOURCE/PWM_CONFIG.c</locationURI>
-		</link>
 	</linkedResources>
 	<variableList>
 		<variable>
@@ -97,8 +87,16 @@
 			<value>file:/C:/Users/Paul/workspace_v6_2/Common_IncludeFiles</value>
 		</variable>
 		<variable>
+			<name>COMMON_LIBRARY_FILES</name>
+			<value>file:/C:/Users/Paul/workspace_v6_2/Common_Library_Files</value>
+		</variable>
+		<variable>
 			<name>COMMON_LINKED_SOURCE</name>
 			<value>file:/C:/Users/Paul/workspace_v6_2/Common_LinkedFiles/source</value>
+		</variable>
+		<variable>
+			<name>COMMON_LINKERCMD</name>
+			<value>file:/C:/Users/Paul/workspace_v6_2/Common_LinkerCMD_Files</value>
 		</variable>
 	</variableList>
 </projectDescription>

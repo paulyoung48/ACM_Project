@@ -1,6 +1,6 @@
 ;***************************************************************
 ;* TMS320C2000 C/C++ Codegen                         PC v6.4.6 *
-;* Date/Time created: Thu Sep 14 15:56:58 2017                 *
+;* Date/Time created: Thu Sep 21 13:53:25 2017                 *
 ;***************************************************************
 	.compiler_opts --cla_support=cla1 --diag_wrap=off --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_model:data=large --object_format=coff --silicon_version=28 --symdebug:dwarf --symdebug:dwarf_version=3 --tmu_support=tmu0 
 FP	.set	XAR2
@@ -9,7 +9,7 @@ $C$DW$CU	.dwtag  DW_TAG_compile_unit
 	.dwattr $C$DW$CU, DW_AT_name("../cpu_timers_cpu01.c")
 	.dwattr $C$DW$CU, DW_AT_producer("TI TMS320C2000 C/C++ Codegen PC v6.4.6 Copyright (c) 1996-2015 Texas Instruments Incorporated")
 	.dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-	.dwattr $C$DW$CU, DW_AT_comp_dir("C:\Users\Paul\workspace_v6_2\Project_Scratch\Debug")
+	.dwattr $C$DW$CU, DW_AT_comp_dir("C:\Users\Paul\git\ACM_Project\Project_Scratch\Debug")
 ;**************************************************************
 ;* CINIT RECORDS                                              *
 ;**************************************************************
@@ -793,8 +793,8 @@ $C$DW$137	.dwtag  DW_TAG_variable, DW_AT_name("PieVectTable")
 	.dwattr $C$DW$137, DW_AT_type(*$C$DW$T$799)
 	.dwattr $C$DW$137, DW_AT_declaration
 	.dwattr $C$DW$137, DW_AT_external
-;	C:\ti\ccsv6\tools\compiler\ti-cgt-c2000_6.4.6\bin\opt2000.exe C:\\Users\\Paul\\AppData\\Local\\Temp\\104922 C:\\Users\\Paul\\AppData\\Local\\Temp\\104924 
-;	C:\ti\ccsv6\tools\compiler\ti-cgt-c2000_6.4.6\bin\ac2000.exe -@C:\\Users\\Paul\\AppData\\Local\\Temp\\1049212 
+;	C:\ti\ccsv6\tools\compiler\ti-cgt-c2000_6.4.6\bin\opt2000.exe C:\\Users\\Paul\\AppData\\Local\\Temp\\147402 C:\\Users\\Paul\\AppData\\Local\\Temp\\147404 
+;	C:\ti\ccsv6\tools\compiler\ti-cgt-c2000_6.4.6\bin\ac2000.exe -@C:\\Users\\Paul\\AppData\\Local\\Temp\\1474012 
 	.sect	".text"
 	.clink
 	.global	_main
@@ -1054,9 +1054,9 @@ $C$DW$148	.dwtag  DW_TAG_TI_branch
         MOVIZ     R0H,#49024            ; [CPU_] |257| 
         MOV32     @_CV_COMP,R0H         ; [CPU_] |257| 
 	.dwpsn	file "../cpu_timers_cpu01.c",line 240,column 3,is_stmt,isa 0
-        MOVIZ     R0H,#16076            ; [CPU_] |240| 
+        MOVIZ     R0H,#16055            ; [CPU_] |240| 
         MOVW      DP,#_FAN_DUTY         ; [CPU_U] 
-        MOVXI     R0H,#52429            ; [CPU_] |240| 
+        MOVXI     R0H,#16043            ; [CPU_] |240| 
         MOV32     @_FAN_DUTY,R0H        ; [CPU_] |240| 
         MOVW      DP,#_CV_COMP+2        ; [CPU_U] 
 	.dwpsn	file "../cpu_timers_cpu01.c",line 258,column 3,is_stmt,isa 0

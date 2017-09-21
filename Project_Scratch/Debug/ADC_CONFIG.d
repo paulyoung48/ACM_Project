@@ -1,6 +1,6 @@
 # FIXED
 
-ADC_CONFIG.obj: C:/Users/Paul/workspace_v6_2/Common_LinkedFiles/source/ADC_CONFIG.c
+ADC_CONFIG.obj: ../ADC_CONFIG.c
 ADC_CONFIG.obj: C:/Users/Paul/workspace_v6_2/Common_IncludeFiles/DIGITAL_POWER_F28X7XV1_INCLUDE/DPlib.h
 ADC_CONFIG.obj: C:/Users/Paul/workspace_v6_2/Common_IncludeFiles/F2837xS_COMMON_INCLUDE/F28x_Project.h
 ADC_CONFIG.obj: C:/Users/Paul/workspace_v6_2/Common_IncludeFiles/F2837xS_COMMON_INCLUDE/F2837xS_Cla_typedefs.h
@@ -62,7 +62,7 @@ ADC_CONFIG.obj: C:/Users/Paul/workspace_v6_2/Common_IncludeFiles/F2837xS_COMMON_
 ADC_CONFIG.obj: C:/Users/Paul/workspace_v6_2/Common_IncludeFiles/F28x7x_C_MACROS/ADCDRV_F_C.h
 ADC_CONFIG.obj: C:/Users/Paul/workspace_v6_2/Common_IncludeFiles/DIGITAL_POWER_F28X7XV1_INCLUDE/DPlib.h
 
-C:/Users/Paul/workspace_v6_2/Common_LinkedFiles/source/ADC_CONFIG.c: 
+../ADC_CONFIG.c: 
 C:/Users/Paul/workspace_v6_2/Common_IncludeFiles/DIGITAL_POWER_F28X7XV1_INCLUDE/DPlib.h: 
 C:/Users/Paul/workspace_v6_2/Common_IncludeFiles/F2837xS_COMMON_INCLUDE/F28x_Project.h: 
 C:/Users/Paul/workspace_v6_2/Common_IncludeFiles/F2837xS_COMMON_INCLUDE/F2837xS_Cla_typedefs.h: 
