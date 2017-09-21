@@ -84,19 +84,19 @@
 	<variableList>
 		<variable>
 			<name>COMMON_INCLUDE</name>
-			<value>file:/C:/Users/Paul/workspace_v6_2/Common_IncludeFiles</value>
+			<value>$%7BWORKSPACE_LOC%7D/COMMON_CCS_FILES/Common_IncludeFiles</value>
 		</variable>
 		<variable>
 			<name>COMMON_LIBRARY_FILES</name>
-			<value>file:/C:/Users/Paul/workspace_v6_2/Common_Library_Files</value>
+			<value>$%7BWORKSPACE_LOC%7D/COMMON_CCS_FILES/Common_Library_Files</value>
 		</variable>
 		<variable>
 			<name>COMMON_LINKED_SOURCE</name>
-			<value>file:/C:/Users/Paul/workspace_v6_2/Common_LinkedFiles/source</value>
+			<value>$%7BWORKSPACE_LOC%7D/COMMON_CCS_FILES/Common_LinkedFiles/source</value>
 		</variable>
 		<variable>
 			<name>COMMON_LINKERCMD</name>
-			<value>file:/C:/Users/Paul/workspace_v6_2/Common_LinkerCMD_Files</value>
+			<value>$%7BWORKSPACE_LOC%7D/COMMON_CCS_FILES/Common_LinkerCMD_Files</value>
 		</variable>
 	</variableList>
 </projectDescription>
